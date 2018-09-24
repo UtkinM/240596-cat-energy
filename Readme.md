@@ -1,7 +1,7 @@
 # Личный проект «Кэт энерджи» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Михаил Уткин](https://up.htmlacademy.ru/adaptive/15/user/240596).
-* Наставник: `Неизвестно`.
+* Наставник: `Неизвестно `.
 
 ---
 
