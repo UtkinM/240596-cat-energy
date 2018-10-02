@@ -2,11 +2,88 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8">
-    <title>HTML Academy: Кэт энерджи</title>
+    <title>Кэт энерджи</title>
   </head>
   <body>
 
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">Профессиональный HTML и CSS</a>», уровень 2.</p>
+    <div class="container">
+      <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__tytle"></div>
+        <nav class="header__nav"></nav>
+      </header>
+    </div>
 
+    <main>
+      <article class="index">
+        <img src="img/index-background-mobile.png" class="index__img" width="320" height="305">
+        <h1 class="index__title">Функциональное питание для котов</h1>
+        <h3 class="index__sub-title">занялся собой? займись котом!</h3>
+        <a class="btn index__btn" href="#">Выбрать программу</a>
+      </article>
+      <article class="programm programm_slim">
+        <h3 class="programm__title">похудение</h3>
+        <p class="programm__text">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям? Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
+        <a class="programm__slim" href="#"></a>
+      </article>
+      <article class="programm programm_pro">
+        <h3 class="programm__title">Набор массы</h3>
+        <p class="programm__text">Заработать авторитет среди дворовых котов и даже собак? Серия Cat Energy Pro поможет вашему коту нарастить необходимые мышцы!</p>
+        <a class="programm__pro" href="#"></a>
+      </article>
+      <article class="works">
+        <h2 class="works__title">Как это работает</h2>
+        <ul class="works__list">
+          <li class="works__item">Функциональное питание содержит только полезные питательные вещества.</li>
+          <li class="works__item">Выпускается в виде порошка, который нужно лишь залить кипятком и готово.</li>
+          <li class="works__item">Замените один-два приема обычной еды на наше функциональное питание.</li>
+          <li class="works__item">Уже через месяц наслаждайтесь изменениями к лучшему вашего питомца!</li>
+        </ul>
+      </article>
+      <article class="example">
+        <h2 class="example__title">Живой пример</h2>
+        <p class="example__text">
+          Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim. Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16 часов в день.</p>
+        <ul class="example__list">
+          <li class="example__item">
+            <span class="example__weight">5 кг</span>
+            <span class="example__slim">снижение веса</span>
+          </li>
+          <li class="example__item">
+            <span class="example__day">60 дней</span>
+            <span class="example__time">затрачено времени</span>
+          </li>
+        </ul>
+        <div class="example__count">Затраты на питание: 15 000 руб.</div>
+        <div class="example__img">
+          <img class="example__img-cat" src="img/before-mobile.png" width="311" height="232">
+        </div>
+        <div class="example__result">
+          <span class="example__item-result">было</span>
+          <span class="example__item-result">стало</span>
+        </div>
+      </article>
+      <article class="location">
+        <h4 class="location__title">приглашаем к сотрудничеству дилеров!</h4>
+        <div class="location__adress">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</div>
+        <map></map>
+      </article>
+    </main>
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="img/footer-logo.svg" class="footer__logo-img" width="128" height="24">
+      </div>
+      <div class="social">
+        <div class="social__vk">В контакте</div>
+        <div class="social__inst">Мнстаграмм</div>
+        <div class="social__fs">Фейсбук</div>
+      </div>
+      <div class="footer">
+        <div class="footer__author">HTML Academy</div>
+        <div class="footer__logo"></div>
+      </div>wrap
+    </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
